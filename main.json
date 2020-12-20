@@ -238,12 +238,12 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"D:\/Programme ab neuem Windows\/Tiled\/Tilestes\/BG.tsx"
+         "source":"tsx\/background.tsx"
         }, 
         {
          "columns":25,
          "firstgid":1024,
-         "image":"D:\/Programme ab neuem Windows\/Tiled\/Bilder\/IMG_1757.PNG",
+         "image":"Bilder\/IMG_1757.PNG",
          "imageheight":600,
          "imagewidth":800,
          "margin":0,
@@ -448,7 +448,7 @@
         {
          "columns":43,
          "firstgid":1474,
-         "image":"D:\/Programme ab neuem Windows\/Tiled\/Bilder\/IMG_1765.PNG",
+         "image":"Bilder\/IMG_1765.PNG",
          "imageheight":512,
          "imagewidth":1377,
          "margin":0,
