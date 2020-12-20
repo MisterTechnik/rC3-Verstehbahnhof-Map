@@ -60,30 +60,8 @@
         {
          "draworder":"topdown",
          "id":8,
-         "name":"floorLayer",
-         "objects":[
-                {
-                 "height":696.895922093731,
-                 "id":3,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1716.37248934875,
-                 "x":690.667478190302,
-                 "y":774.047843007063
-                }, 
-                {
-                 "height":0,
-                 "id":4,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1914.03935889633,
-                 "y":1078.36920636677
-                }],
+         "name":"Objektebene 1",
+         "objects":[],
          "offsetx":-33.3333333333334,
          "offsety":251.515151515152,
          "opacity":1,
@@ -179,50 +157,51 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":5,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"2020.12.17",
+ "tiledversion":"1.4.3",
  "tileheight":32,
  "tilesets":[
         {
          "columns":25,
          "firstgid":1,
-         "image":"Bilder\/IMG_1695.png",
+         "image":"Bilder\/IMG_1695.PNG",
          "imageheight":600,
          "imagewidth":800,
          "margin":0,
-         "name":"tileset1",
+         "name":"1.tilesets",
          "spacing":0,
          "tilecount":450,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":104,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
          "columns":31,
          "firstgid":451,
-         "image":"Bilder\/space-background.jpg",
+         "image":"Bilder\/seamless-cartoon-space-background-vector-9916513.jpg",
          "imageheight":1080,
          "imagewidth":1000,
          "margin":0,
-         "name":"space-background",
+         "name":"BG",
          "spacing":0,
          "tilecount":1023,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
-         "columns":14,
          "firstgid":1474,
-         "image":"Bilder\/Character.png",
-         "imageheight":495,
-         "imagewidth":470,
-         "margin":0,
-         "name":"Character",
-         "spacing":0,
-         "tilecount":210,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"Tilestes\/Charas.tsx"
         }],
  "tilewidth":32,
  "type":"map",
