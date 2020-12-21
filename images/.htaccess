@@ -1,0 +1,2 @@
+Header set Access-Control-Allow-Origin "test.visit.at.wa-test.rc3.cccv.de"
+Header set Access-Control-Allow-Methods "GET,PUT,POST"
