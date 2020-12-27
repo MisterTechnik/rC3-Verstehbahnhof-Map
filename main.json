@@ -139,7 +139,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/map.json#start_verstehbahnhof}"
+                 "value":"{<lobby>\/hardware-making.json#start_verstehbahnhof}"
                 }],
          "type":"tilelayer",
          "visible":true,
